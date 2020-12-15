@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Langar', cursive;
+
+}
+
+body,html{
+  margin:0px;
+  padding:0px;
+  background-color: #8B4513;
+}
+
+.heroTitle{
+  background-image: url("https://cdn.mos.cms.futurecdn.net/9vb2YWe3j5GwoVJagDzxLQ.jpg");
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:100vmin;
+}
+
+.heroTitle h1{
+  font-size: 12vmin;
+  margin-bottom: 10px;
+  color:#bbb;
+}
+
+.mainContainer{
+  padding: 3vmin;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.mainContainer h2{
+  font-size: 5vmin;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.mainContainer>div h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer div>p{
+  font-size: 3vmin;
+  padding-bottom: 5px;
+}
+
+.mainContainer div>div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainContainer div p: first-child{
+  font-size: 6vmin;
+  font-weight: bold;
+}
